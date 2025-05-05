@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stopassola Advocacia</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f6f6f6;
+      color: #333;
+    }
+    header {
+      background: #1d3557;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #457b9d;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background: #1d3557;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .btn {
+      background: #457b9d;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Stopassola Advocacia</h1>
+  <p>Compromisso com a Justiça há mais de 40 anos</p>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#areas">Áreas</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+  <h2>Quem Somos</h2>
+  <p>
+    Localizado em Canela e Gramado, a Stopassola Advocacia oferece soluções jurídicas há mais de 40 anos com foco em Direito Previdenciário, Trabalhista, Cível e de Família.
+  </p>
+</section>
+
+<section id="areas">
+  <h2>Áreas de Atuação</h2>
+  <ul>
+    <li>Direito Previdenciário</li>
+    <li>Direito Trabalhista</li>
+    <li>Direito Cível</li>
+    <li>Direito de Família</li>
+    <li>Direito Empresarial</li>
+  </ul>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <p><strong>WhatsApp:</strong> (54) 98432-7107</p>
+  <p><strong>Instagram:</strong> <a href="https://www.instagram.com/stopassola.adv/" target="_blank">@stopassola.adv</a></p>
+  <p><strong>Endereço:</strong> Canela/Gramado - RS</p>
+  <a class="btn" href="https://wa.me/5554984327107" target="_blank">Enviar Mensagem no WhatsApp</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Stopassola Advocacia • Desenvolvido por Vitor</p>
+</footer>
+
+</body>
+</html>
