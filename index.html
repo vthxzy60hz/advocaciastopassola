@@ -1,81 +1,133 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Advocacia Stopassola</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advocacia Stopassola | Canela e Gramado - RS</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #0f0f0f;
+      color: #fff;
+      line-height: 1.6;
     }
 
     header {
       background-color: #8B0000;
-      color: white;
-      padding: 20px;
+      padding: 2rem;
       text-align: center;
     }
 
-    main {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
+    header h1 {
+      font-size: 2.5rem;
+      color: #ffffff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #f0f0f0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
     }
 
     h2 {
-      color: #8B0000;
+      color: #FF6347;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .card {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      border-color: #FF4500;
+      transform: scale(1.02);
     }
 
     footer {
-      background-color: #eee;
+      background-color: #1a1a1a;
       text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-      font-size: 14px;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #ccc;
     }
 
-    .whatsapp {
+    a.button {
       display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #25D366;
+      padding: 1rem 2rem;
+      background-color: #FF4500;
       color: white;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #e03e00;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Advocacia Stopassola</h1>
-    <p>Atendimento em Canela e Gramado - RS</p>
+    <p>Excelência Jurídica em Canela e Gramado - RS</p>
   </header>
 
-  <main>
-    <h2>Sobre Nós</h2>
-    <p>Somos um escritório especializado em Direito Civil, Trabalhista e de Família, atuando com seriedade e comprometimento na Serra Gaúcha.</p>
+  <main class="container">
+    <section>
+      <h2>Quem Somos</h2>
+      <div class="card">
+        <p>Somos um escritório de advocacia com forte atuação na Serra Gaúcha, oferecendo serviços personalizados e com foco total no cliente. Atuamos em áreas como Direito Civil, Trabalhista, Empresarial e Família.</p>
+      </div>
+    </section>
 
-    <h2>Serviços</h2>
-    <ul>
-      <li>Consultas jurídicas</li>
-      <li>Processos trabalhistas</li>
-      <li>Direito de família</li>
-      <li>Assessoria para empresas</li>
-    </ul>
+    <section>
+      <h2>Serviços</h2>
+      <div class="card">
+        <strong>Consultoria Jurídica:</strong>
+        <p>Orientações especializadas para pessoas físicas e jurídicas.</p>
+      </div>
+      <div class="card">
+        <strong>Direito de Família:</strong>
+        <p>Atendimento humanizado em processos de divórcio, guarda, pensão e adoção.</p>
+      </div>
+      <div class="card">
+        <strong>Direito Trabalhista:</strong>
+        <p>Defesa dos direitos de empregados e empregadores com responsabilidade.</p>
+      </div>
+    </section>
 
-    <h2>Contato</h2>
-    <p>Entre em contato conosco pelo WhatsApp para agendar sua consulta:</p>
-    <a class="whatsapp" href="https://wa.me/5554981312500" target="_blank">Falar no WhatsApp</a>
+    <section>
+      <h2>Fale Conosco</h2>
+      <p>Entre em contato conosco e agende uma consulta personalizada.</p>
+      <a href="https://wa.me/5554981312500" target="_blank" class="button">Chamar no WhatsApp</a>
+    </section>
   </main>
 
   <footer>
     &copy; 2025 Advocacia Stopassola. Todos os direitos reservados.
   </footer>
-
 </body>
 </html>
